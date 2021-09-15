@@ -1,0 +1,62 @@
+.nav-link{
+    font-size: 1.3rem;
+   margin-right: 50px;
+}
+.carousel-item{
+    background-size: cover;
+
+}
+.purple{
+    color:purple;
+}
+.products
+{
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.products img{
+  height: 100%;
+  width: 100%;
+    opacity: 0.6;
+    transform: scale(1.1);
+    transform: 2s;
+}
+.products img:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+h2
+{
+    color:purple;   
+}
+.testimonials{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(0, 0, 0, 0.7)) 
+    , url(../images/455.jpg);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.testimonials i{
+    font-size: 36px;
+    margin-bottom: 10px;
+    transform: rotate(45deg);
+}
+.testimonials p{
+    line-height: 150%; margin-bottom: 20px;
+}
+.testimonials img{
+    height: 50px; width: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+footer{
+    min-height: 28vh;
+    background-color: purple;
+}
+
+
+
